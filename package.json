@@ -1,0 +1,23 @@
+{
+  "name": "ng-embedded-react",
+  "version": "1.0.0",
+  "description": "Angular app with embedded react app for certain routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagorendong/ng-embedded-react.git"
+  },
+  "author": "Santiago Rendon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagorendong/ng-embedded-react/issues"
+  },
+  "homepage": "https://github.com/santiagorendong/ng-embedded-react#readme",
+  "workspaces": [
+    "apps/react-app",
+    "apps/ng-app"
+  ]
+}
