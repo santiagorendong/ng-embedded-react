@@ -18,6 +18,7 @@
   "homepage": "https://github.com/santiagorendong/ng-embedded-react#readme",
   "workspaces": [
     "apps/react-app",
-    "apps/ng-app"
+    "apps/ng-app",
+    "apps/root-app"
   ]
 }
