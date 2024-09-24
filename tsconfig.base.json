@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@apps/react-app": ["apps/react-app/src/index.ts"],
+      "@apps/ng-app": ["apps/ng-app/src/index.ts"]
+    }
+  }
+}
